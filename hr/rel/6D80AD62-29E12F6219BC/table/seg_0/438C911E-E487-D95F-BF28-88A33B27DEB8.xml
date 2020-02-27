@@ -21,15 +21,14 @@ Contains 25 rows. References with jobs, employees, and departments tables.]]></c
 <sourceObjName>EMPLOYEE_ID</sourceObjName>
 <createdBy>jdsmith</createdBy>
 <createdTime>2020-02-27 00:47:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[A not null column in the complex primary key employee_id+start_date.
-Foreign key to employee_id column of the employee table]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[comments are bad]]></commentInRDBMS>
 <ownerDesignName>hr</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>JHIST_EMPLOYEE_NN</notNullConstraintName>
 <associations>
@@ -85,7 +84,7 @@ job_id column in the jobs table. A not null column.]]></commentInRDBMS>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10 BYTE</dataTypeSize>
-<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>JHIST_JOB_NN</notNullConstraintName>
 <associations>
@@ -106,7 +105,7 @@ job_id column in the jobs table. A not null column.]]></commentInRDBMS>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="DC1245EC-0D04-4AD0-7D39-EA71B2E262CF" referredColumn="7B3C05E0-F8B6-BF76-2113-62261A1D408B"/>
