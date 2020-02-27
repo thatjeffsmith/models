@@ -21,14 +21,14 @@ Contains 25 rows. References with jobs, employees, and departments tables.]]></c
 <sourceObjName>EMPLOYEE_ID</sourceObjName>
 <createdBy>jdsmith</createdBy>
 <createdTime>2020-02-27 00:47:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[comments are bad]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[changed to precision 9 we have more employees now]]></commentInRDBMS>
 <ownerDesignName>hr</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
+<dataTypePrecision>9</dataTypePrecision>
 <dataTypeScale>0</dataTypeScale>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>JHIST_EMPLOYEE_NN</notNullConstraintName>
 <associations>
